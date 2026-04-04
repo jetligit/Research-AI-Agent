@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
+from langchain.agents import create_tool_calling_agent, AgentExecutor
 
 load_dotenv()
 
@@ -27,6 +28,19 @@ prompt = ChatPromptTemplate.from_messages(
         ("placeholder", "{chat_history}"),
         ("human", "{query}"),
         ("placeholder", "{agent_scratchpad}"),
-    
     ]
+).partial(format_instructions=parser.get_format_instructions())
+
+agent = create_tool_calling_agent(
+    llm = llm,
+    prompt=prompt,
+    tools=[]
 )
+
+agent_executor = AgentExecutor(agent=agent, tools=[], verbose=True)
+raw_response = agent_executor.invoke({"query": "What is the capital of France?"})
+print(raw_response)
+
+# python3.13 -m venv venv
+# source venv/bin/activate
+# python Main.py
