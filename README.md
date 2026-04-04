@@ -8,8 +8,8 @@ Generates structured research summaries including:
 - Summary of key points
 - Sources referenced
 - Tools used
-Uses LangChain to manage conversation flow and prompt formatting.
-Wraps outputs in a strict Pydantic schema to ensure clean, structured results.
+Uses LangChain to manage conversation flow and prompt formatting
+Wraps outputs in a strict Pydantic schema to ensure clean, structured results
 Can leverage Wikipedia and DuckDuckGo using tools for extended research
 Saves research information to a txt file
 
