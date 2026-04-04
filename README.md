@@ -10,7 +10,8 @@ Generates structured research summaries including:
 - Tools used
 Uses LangChain to manage conversation flow and prompt formatting.
 Wraps outputs in a strict Pydantic schema to ensure clean, structured results.
-Can leverage external tools for extended research capabilities.
+Can leverage Wikipedia and DuckDuckGo using tools for extended research
+Saves research information to a txt file
 
 🛠️ Technologies Used
 Python 3
