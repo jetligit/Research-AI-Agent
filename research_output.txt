@@ -1,0 +1,40 @@
+--- Research Output ---
+Timestamp: 2026-04-11 11:30:25
+
+{"topic": "The American Flag", "summary": "The national flag of the United States, often referred to as the American flag, symbolizes liberty and democracy. The flag has a rich history and its colors—red, white, and blue—represent purity, valor, and justice. It stands as a symbol of struggle, unity, and sacrifice, reflecting American ideals. The flag's imagery can be seen across significant historical events, marking triumphs like the moon landing and moments of resilience such as at Ground Zero.", "sources": ["Wikipedia: Flag of the United States", "Various historical accounts and meanings of the American Flag"], "tools_used": ["Wikipedia", "Search Engine"]}
+
+--- Research Output ---
+    Timestamp: 2026-04-11 11:37:23
+
+    Topic: The American Flag
+
+    Summary:
+    The national flag of the United States, often referred to as the Stars and Stripes, consists of 13 horizontal stripes, 7 red and 6 white, representing the original 13 colonies, and a blue rectangle in the canton bearing 50 white stars, representing the 50 states. The flag has a long history dating back to the American Revolution and has undergone several changes since its adoption. It symbolizes the values of freedom and democracy.
+
+    Sources:
+      - Wikipedia: Flag of the United States
+
+    Tools Used:
+      - wikipedia
+  - search
+
+    ==================================================
+
+    --- Research Output ---
+Timestamp: 2026-04-11 15:03:38
+
+Topic: Great White Shark
+
+Summary:
+The great white shark (Carcharodon carcharias), also known as the white shark, is a species of large shark found in coastal and oceanic habitats. It is known for its size, with adults typically measuring around 15 to 20 feet in length. They are apex predators, feeding on marine mammals, fish, and birds. Great white sharks are known for their powerful swimming abilities, distinctive conical snout, and white underbelly. They play a crucial role in marine ecosystems as top predators, maintaining the balance of marine life.
+
+Sources:
+  - https://en.wikipedia.org/wiki/Great_white_shark
+  - https://www.nationalgeographic.com/animals/fish/facts/great-white-shark
+
+Tools Used:
+  - wikipedia
+  - search
+
+==================================================
+
